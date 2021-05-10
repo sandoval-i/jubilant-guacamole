@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".ImageActivity">
+
+  <ImageView
+    android:id="@+id/imageImageView"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="40dp"
+    android:scaleType="fitCenter" />
+
+  <Button
+    android:id="@+id/pickImageButton"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp"
+    android:text="Seleccionar imagen" />
+
+  <Button
+    android:id="@+id/launchCameraButton"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp"
+    android:text="Camara" />
+</RelativeLayout>

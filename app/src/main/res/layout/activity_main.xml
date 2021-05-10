@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@color/teal_200"
+  tools:context=".MainActivity">
+  <ImageButton
+    android:id="@+id/cameraButton"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"
+    android:background="@color/white"
+    android:layout_margin="5dp"
+    android:src="@drawable/camerabutton"/>
+  <ImageButton
+    android:id="@+id/contactsButton"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"
+    android:background="@color/white"
+    android:scaleType="fitCenter"
+    android:layout_margin="5dp"
+    android:src="@drawable/contactsbutton" />
+  <ImageButton
+    android:id="@+id/mapsButton"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.3"
+    android:layout_margin="5dp"
+    android:scaleType="fitCenter"
+    android:background="@color/white"
+    android:src="@drawable/mapbutton" />
+
+</LinearLayout>
